@@ -1,0 +1,15 @@
+name: RuralNetwork
+version: 1.0.0-B1
+main: com.ruralnetwork.plugin.RuralNetwork
+author: Chaka
+commands:
+  gm:
+    description: Sets the senders gamemode
+    usage: /<command>
+  rank:
+    description: Sets a players group.
+    aliases: [player, plus, vip, mvp, mod, admin]
+    usage: /<command>
+  spawn:
+    description: Sends the sender to the server spawn.
+    usage: /<command>
